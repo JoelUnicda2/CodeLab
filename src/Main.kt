@@ -1,5 +1,6 @@
 import Example.Plecostomus
 import Example.Shark
+import decor.makeDecorations
 
 
 fun buildAquarium() {
@@ -60,6 +61,7 @@ fun buildAquarium() {
 fun main() {
     buildAquarium()
     makeFish()
+    makeDecorations()
 }
 
 
