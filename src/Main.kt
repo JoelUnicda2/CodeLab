@@ -1,12 +1,23 @@
 
 
 
+fun buildAquarium() {
+   // val myAquarium = Aquarium()
+   // myAquarium.printSize()
 
-fun buildAquarim(){
-    val  myAquarium = Aquarium()
+    val myAquarium = Aquarium()
+    myAquarium.printSize()
+    myAquarium.height = 60
+    myAquarium.printSize()
+
 }
+
+
+
 
 
 fun main() {
-    buildAquarim()
+    buildAquarium()
 }
+
+

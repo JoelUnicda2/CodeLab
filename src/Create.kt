@@ -1,5 +1,20 @@
 class Aquarium {
     var width:  Int = 20
-    var heiht: Int = 40
-    var Length: Int = 100
+    var height: Int = 40
+    var length: Int = 100
+
+
+
+    fun printSize() {
+        println("Width: $width cm " +
+                "Length: $length cm " +
+                "Height: $height cm ")
+    }
+
+
 }
+
+
+
+
+
